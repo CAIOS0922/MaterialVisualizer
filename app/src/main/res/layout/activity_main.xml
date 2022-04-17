@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <caios.android.material_visualizer.MaterialVisualizer
+        android:id="@+id/visualizer"
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:background="#222"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:vScrollSpeed="30"
+        app:vOrientation="horizontal"
+        app:vFrameAnimateDuration="300"
+        app:vFrameAnimateDelay="100" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/recButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SWITCH"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/visualizer" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

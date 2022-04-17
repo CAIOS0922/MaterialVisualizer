@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MaterialVisualizer">
+        <attr name="vOrientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="vScrollSpeed" format="integer" />
+        <attr name="vFrameAnimateDuration" format="integer" />
+        <attr name="vFrameAnimateDelay" format="integer" />
+    </declare-styleable>
+</resources>

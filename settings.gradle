@@ -1,0 +1,3 @@
+rootProject.name = "MaterialVisualizerSample"
+include ':app'
+include ':app:MaterialVisualizer'
